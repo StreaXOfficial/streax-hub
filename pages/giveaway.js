@@ -8,31 +8,31 @@ return <div className="img1 w-full h-[100vh]">
     <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12 w-[600px] h-[600px] absolute top-[100px] left-[500px]" >
         <form action="" class="space-y-4">
           <div>
-            <label class="sr-only" for="name">Name</label>
+            <label class="sr-only" for="name">Title</label>
             <input
               class="w-full rounded-lg border-gray-200 p-3 text-sm"
-              placeholder="Name"
+              placeholder="Title"
               type="text"
-              id="name"
+              id="name" 
             />
           </div>
 
           <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
-              <label class="sr-only" for="email">Email</label>
+              <label class="sr-only text-black" for="email">Event Link</label>
               <input
                 class="w-full rounded-lg border-gray-200 p-3 text-sm"
-                placeholder="Email address"
+                placeholder="Event Link"
                 type="email"
                 id="email"
               />
             </div>
 
             <div>
-              <label class="sr-only" for="phone">Phone</label>
+              <label class="sr-only" for="phone">Starting Time</label>
               <input
                 class="w-full rounded-lg border-gray-200 p-3 text-sm"
-                placeholder="Phone Number"
+                placeholder="Learn More"
                 type="tel"
                 id="phone"
               />
@@ -40,45 +40,16 @@ return <div className="img1 w-full h-[100vh]">
           </div>
 
           <div class="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
-            <div>
-              <input class="sr-only" id="option1" type="radio" tabindex="-1" />
-              <label
-                for="option1"
-                class="block w-full rounded-lg border border-gray-200 p-3"
-                tabindex="0"
-              >
-                <span class="text-sm font-medium"> Option 1 </span>
-              </label>
-            </div>
-
-            <div>
-              <input class="sr-only" id="option2" type="radio" tabindex="-1" />
-              <label
-                for="option2"
-                class="block w-full rounded-lg border border-gray-200 p-3"
-                tabindex="0"
-              >
-                <span class="text-sm font-medium"> Option 2 </span>
-              </label>
-            </div>
-
-            <div>
-              <input class="sr-only" id="option3" type="radio" tabindex="-1" />
-              <label
-                for="option3"
-                class="block w-full rounded-lg border border-gray-200 p-3"
-                tabindex="0"
-              >
-                <span class="text-sm font-medium"> Option 3 </span>
-              </label>
-            </div>
+           
+           
+         
           </div>
 
           <div>
-            <label class="sr-only" for="message">Message</label>
+            <label class="sr-only" for="message">Giveaway Description</label>
             <textarea
               class="w-full rounded-lg border-gray-200 p-3 text-sm"
-              placeholder="Message"
+              placeholder="Giveaway Description"
               rows="8"
               id="message"
             ></textarea>
@@ -89,7 +60,7 @@ return <div className="img1 w-full h-[100vh]">
               type="submit"
               class="inline-flex w-full items-center justify-center rounded-lg bg-black px-5 py-3 text-white sm:w-auto"
             >
-              <span class="font-medium"> Send Enquiry </span>
+              <span class="font-medium"> Post Tweet </span>
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"

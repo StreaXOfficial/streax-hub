@@ -27,7 +27,7 @@ const App = ({ Component, pageProps }) => {
       new PhantomWalletAdapter(),
       new GlowWalletAdapter()
     ],
-    [network]
+    []
   );
 
   return (

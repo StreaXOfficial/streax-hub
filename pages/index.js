@@ -1,8 +1,6 @@
-import { Main } from "next/document";
 import Head from "next/head";
-import Image from "next/image";
 import Navbar from "../components/Navbar";
-import styles from "../styles/Home.module.css";
+import "../styles/Home.module.css";
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui'
 
 export default function Home() {
