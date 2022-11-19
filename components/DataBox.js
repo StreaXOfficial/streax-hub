@@ -11,7 +11,7 @@ const DataBox = ({platform,funcType,desc,isgiveaway,}) => {
     }
   return (
     <div className="w-[260px] h-[300px] bg-[#1F2937] text-white rounded-lg text-center flex flex-col justify-center cursor-pointer">
-<h1 className="text-xl text-center">{platform}</h1>
+<h1 className="text-xl text-center font-bold" >{platform}</h1>
 <h1 className="text-xl text-center">{funcType}</h1>
 
 {/* <img src={platform=="Twitter"?Twitter:Discord} alt="" width="30px" height="30px" className=""/> */}
