@@ -11,11 +11,11 @@ const goDashboard=() => {
 }
 }
   return (    <div className="navbar flex  text-white bg-[#1A1A1A] w-[100vw] h-[50px] self-center b-btn">
-    <Link href="/"><div className="text-4xl ml-2 text-[#D8FF69] font-bold">X </div></Link>
+    <Link href="/"><div className="text-4xl ml-2 text-[#D8FF69] font-bold">StreaX</div></Link>
     
       <div display="flex justify-end">
       
-        <ul className="flex pl-[1250px] mx-6 self-center pt-2 cursor-pointer">
+        <ul className="flex pl-[1145px] mx-6 self-center pt-2 cursor-pointer">
      
       
           <li className="text-xl mx-4 font-bold ">About</li>
