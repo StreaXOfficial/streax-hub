@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Sidenav from "../components/Sidenav";
+import Link from "next/link";
 export default function Giveaway(){
 return <div className="img1 w-full h-[100vh]">
     <Navbar/>
@@ -56,6 +57,7 @@ return <div className="img1 w-full h-[100vh]">
           </div>
 
           <div class="mt-4">
+            <Link href="/eventaction">
             <button
               type="submit"
               class="inline-flex w-full items-center justify-center rounded-lg bg-black px-5 py-3 text-white sm:w-auto"
@@ -77,6 +79,7 @@ return <div className="img1 w-full h-[100vh]">
                 />
               </svg>
             </button>
+            </Link>
           </div>
         </form>
       </div>

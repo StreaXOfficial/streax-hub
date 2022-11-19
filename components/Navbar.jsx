@@ -15,11 +15,12 @@ const goDashboard=() => {
     
       <div display="flex justify-end">
       
-        <ul className="flex pl-[1145px] mx-6 self-center pt-2 cursor-pointer">
+        <ul className="flex pl-[1000px] mx-6 self-center pt-2 cursor-pointer">
      
       
-          <li className="text-xl mx-4 font-bold ">About</li>
+        <li className="text-xl mx-4 font-bold ">About</li>
           <Link href="/dashboard">    <li className="text-xl mx-4 font-bold " onClick={goDashboard}>Dashboard</li></Link>
+          <Link href="https://zz2nn-kaaaa-aaaad-qehxq-cai.ic.fleek.co/index.html">    <li className="text-xl mx-4 font-bold " onClick={goDashboard}>Platform</li></Link>
       
          </ul>
       
